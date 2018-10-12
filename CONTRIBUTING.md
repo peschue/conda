@@ -30,7 +30,7 @@ To set up an environment to start developing on conda code, we recommend the fol
        GITHUB_USERNAME=kalefranz
        git clone git@github.com:$GITHUB_USERNAME/conda "$CONDA_PROJECT_ROOT"
        cd "$CONDA_PROJECT_ROOT"
-       git remote --add upstream git@github.com:conda/conda
+       git remote add upstream git@github.com:conda/conda
 
 2. Create a local development environment, and activate that environment
 
